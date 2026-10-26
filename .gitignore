@@ -1,0 +1,4 @@
+﻿.vscode/
+# Original high-res sources (not used by the page)
+*.png
+!images/logo-512.png
