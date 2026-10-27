@@ -7,6 +7,8 @@
 <meta name="description" content="EGAH Restaurant & Cafe — fine dining with a view of the Arabian Gulf, Al Khobar. Open daily 7 AM – 12 AM.">
 <meta name="theme-color" content="#14120F">
 <link rel="icon" type="image/png" href="images/logo-512.png">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/interior.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Jost:wght@300;400;500&family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet">
@@ -184,7 +186,7 @@
   @media (min-width: 820px) { .nav ul { display: flex; } }
 
   /* ---------- Hero ---------- */
-  .hero { min-height: 100svh; display: flex; align-items: flex-end; --img: url("images/interior.jpg"); }
+  .hero { min-height: 100svh; display: flex; align-items: flex-end; --img: url("https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/interior.webp"); }
   .hero::after { content: ""; position: absolute; inset: 0; background:
     linear-gradient(90deg, rgba(20,18,15,.78) 0%, rgba(20,18,15,.45) 35%, rgba(20,18,15,0) 70%),
     linear-gradient(180deg, rgba(20,18,15,.55) 0%, rgba(20,18,15,.1) 40%, rgba(20,18,15,.85) 100%); }
@@ -269,12 +271,12 @@
   .duo { display: grid; grid-template-columns: 1.25fr 1fr; gap: 12px; }
   .duo .photo { aspect-ratio: 3 / 4; }
   .duo .photo { aspect-ratio: 4 / 5; }
-  .duo .photo:first-child { --img: url("images/seabass.jpg"); }
-  .duo .photo:last-child  { --img: url("images/tiramisu.jpg"); margin-top: 36px; }
+  .duo .photo:first-child { --img: url("https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/seabass.webp"); }
+  .duo .photo:last-child  { --img: url("https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/tiramisu.webp"); margin-top: 36px; }
   @media (min-width: 820px) { .feel .wrap { grid-template-columns: .9fr 1.1fr; align-items: center; } }
 
   /* ---------- Hours ---------- */
-  .hours { min-height: 78svh; display: flex; align-items: flex-start; --img: url("images/terrace.jpg"); }
+  .hours { min-height: 78svh; display: flex; align-items: flex-start; --img: url("https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/terrace.webp"); }
   .hours::after { content: ""; position: absolute; inset: 0; background:
     linear-gradient(90deg, rgba(20,18,15,.72) 0%, rgba(20,18,15,.25) 55%, transparent 80%),
     linear-gradient(180deg, rgba(20,18,15,.8) 0%, rgba(20,18,15,.2) 55%, rgba(20,18,15,.7) 100%); }
@@ -313,11 +315,11 @@
     [dir="rtl"] .socials a:hover svg { transform: scaleX(-1) translate3d(3px, -3px, 0); }
   }
   .socials a:active { background: rgba(197,141,86,.08); transform: scale(.985); }
-  .closer .photo { aspect-ratio: 4 / 5; max-height: 640px; --img: url("images/interior.jpg"); }
+  .closer .photo { aspect-ratio: 4 / 5; max-height: 640px; --img: url("https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/interior.webp"); }
   @media (min-width: 820px) { .closer .wrap { grid-template-columns: 1fr 1fr; align-items: center; } }
 
   /* ---------- Sea + footer ---------- */
-  .sea { --img: url("images/terrace.jpg"); }
+  .sea { --img: url("https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/terrace.webp"); }
   .sea::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,18,15,.75) 0%, rgba(20,18,15,.3) 40%, rgba(20,18,15,.85) 68%, rgba(20,18,15,.98) 100%); }
   .sea .wrap { position: relative; z-index: 1; padding-block: 72px 28px; }
   .sea .ring { margin: 36px 0 64px; }
@@ -409,7 +411,7 @@
 <body>
 <div class="loader" aria-hidden="true">
   <div class="loader-inner">
-    <span class="logo"><img src="images/logo-512.png" alt=""></span>
+    <span class="logo"><img src="https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/logo-400.webp" decoding="async" alt=""></span>
     <div class="typed" dir="rtl"></div>
     <div class="loader-bar"><i></i></div>
   </div>
@@ -419,7 +421,7 @@
 <div class="progress" aria-hidden="true"></div>
 
 <header class="nav">
-  <a class="brand intro" style="--d:0ms" href="#top" aria-label="EGAH"><span class="logo"><img src="images/logo-512.png" alt=""></span><span class="word">EGAH</span></a>
+  <a class="brand intro" style="--d:0ms" href="#top" aria-label="EGAH"><span class="logo"><img src="https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/logo-400.webp" decoding="async" alt=""></span><span class="word">EGAH</span></a>
   <ul class="intro" style="--d:120ms">
     <li><a href="#connect" data-i18n="navConnect">Connect</a></li>
     <li><a href="#experience" data-i18n="navExp">Our Experience</a></li>
@@ -430,9 +432,9 @@
 </header>
 
 <main id="top">
-  <section class="hero photo slow sunset" data-slides="interior.jpg,terrace.jpg" data-interval="6500">
+  <section class="hero photo slow sunset" data-slides="interior.webp,terrace.webp" data-interval="6500">
     <div class="wrap">
-      <span class="logo intro" style="--d:100ms"><img src="images/logo-512.png" alt="EGAH logo"></span>
+      <span class="logo intro" style="--d:100ms"><img src="https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/logo-400.webp" decoding="async" alt="EGAH logo"></span>
       <span class="eyebrow intro" style="--d:150ms" data-i18n="eyebrow">EGAH &nbsp;·&nbsp; Al Khobar</span>
       <h1 class="display hero-title intro" style="--d:300ms"><span class="sr" data-i18n="heroTitle">Beyond the ordinary</span><span class="tw" aria-hidden="true">Beyond the <span class="accent">ordinary</span></span></h1>
       <p class="sub intro" style="--d:480ms" data-i18n="heroSub">Fine dining, with a view of the Arabian Gulf.</p>
@@ -470,8 +472,8 @@
         <p class="reveal" data-i18n="feelText">A moment worth slowing down for.</p>
       </div>
       <div class="duo">
-        <div class="photo dish reveal" role="img" aria-label="EGAH signature dishes: filet seabass, steak, beef burger, chicken parmesan" data-slides="seabass.jpg,steak.jpg,burger.jpg,chicken-parmesan.jpg" data-interval="5500"></div>
-        <div class="photo pour reveal" role="img" aria-label="Pancake tiramisu and chicken burger at EGAH" data-slides="tiramisu.jpg,chicken-burger.jpg" data-interval="7000"></div>
+        <div class="photo dish reveal" role="img" aria-label="EGAH signature dishes: filet seabass, steak, beef burger, chicken parmesan" data-slides="seabass.webp,steak.webp,burger.webp,chicken-parmesan.webp" data-interval="5500"></div>
+        <div class="photo pour reveal" role="img" aria-label="Pancake tiramisu and chicken burger at EGAH" data-slides="tiramisu.webp,chicken-burger.webp" data-interval="7000"></div>
       </div>
     </div>
   </section>
@@ -484,7 +486,7 @@
     </div>
   </section>
 
-  <footer class="sea photo slow night" data-slides="terrace.jpg,interior.jpg" data-interval="8000">
+  <footer class="sea photo slow night" data-slides="terrace.webp,interior.webp" data-interval="8000">
     <div class="wrap">
       <h2 class="display md split reveal" data-i18n="seaTitle">See you<br>by the sea.</h2>
       <a class="ring reveal" href="https://wa.me/966555676216" data-i18n="reserveRing">Reserve<br>a table</a>
@@ -497,7 +499,7 @@
         <img src="images/qr-call.svg" alt="QR code to WhatsApp EGAH" width="96" height="96">
         <span><b data-i18n="qrTitle">Scan to chat on WhatsApp</b><small data-i18n="qrText">Scan to open our WhatsApp chat and reserve</small></span>
       </a>
-      <div class="sign"><span class="logo" style="--s:56px"><img src="images/logo-512.png" alt="EGAH logo"></span></div>
+      <div class="sign"><span class="logo" style="--s:56px"><img src="https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/logo-400.webp" decoding="async" alt="EGAH logo"></span></div>
       <small data-i18n="footer">Restaurant &amp; Cafe · Al Khobar</small>
     </div>
   </footer>
@@ -783,13 +785,14 @@
   /* ---------- Dissolving slideshows: photos melt into one another ---------- */
   try {
     if (!reduce) {
+      var IMG_BASE = 'https://cdn.jsdelivr.net/gh/TPCT/egah-restaurant@c1a2cda6c8e04bfdd67ee58f34fbced71e4a3890/images/';
       document.querySelectorAll('[data-slides]').forEach(function (host, n) {
         var srcs = host.getAttribute('data-slides').split(',');
         var interval = +host.getAttribute('data-interval') || 6500;
         var layers = srcs.map(function (src, i) {
           var d = document.createElement('div');
           d.className = 'slide' + (i === 0 ? ' on' : '');
-          d.dataset.src = 'images/' + src.trim();
+          d.dataset.src = IMG_BASE + src.trim();
           if (i === 0) d.style.backgroundImage = 'url("' + d.dataset.src + '")';
           host.insertBefore(d, host.firstChild);
           return d;
